@@ -15,6 +15,16 @@ To install via [Composer](http://getcomposer.org/), use the command below, it wi
 composer require wyrihaximus/string-get-in
 ```
 
+# Usage
+
+```php
+// igorw/get-in
+$a = igorw\get_in($haystack, ['nee', 'dle'], $default);
+
+// wyrihaximus/string-get-in
+$a = WyriHaximus\getIn($haystack, 'nee.dle', $default);
+```
+
 # License
 
 The MIT License (MIT)

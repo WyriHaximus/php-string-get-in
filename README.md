@@ -1,11 +1,11 @@
 # Wrapper around igorw/get-in using strings rather then arrays are keys
 
-[![Build Status](https://travis-ci.com/wyrihaximus/php-string-get-in.svg?branch=master)](https://travis-ci.com/wyrihaximus/php-string-get-in)
+[![Build Status](https://travis-ci.com/WyriHaximus/php-string-get-in.svg?branch=master)](https://travis-ci.com/WyriHaximus/php-string-get-in)
 [![Latest Stable Version](https://poser.pugx.org/wyrihaximus/string-get-in/v/stable.png)](https://packagist.org/packages/wyrihaximus/string-get-in)
 [![Total Downloads](https://poser.pugx.org/wyrihaximus/string-get-in/downloads.png)](https://packagist.org/packages/wyrihaximus/string-get-in/stats)
 [![Code Coverage](https://scrutinizer-ci.com/g/wyrihaximus/php-string-get-in/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/wyrihaximus/php-string-get-in/?branch=master)
 [![License](https://poser.pugx.org/wyrihaximus/string-get-in/license.png)](https://packagist.org/packages/wyrihaximus/string-get-in)
-[![PHP 7 ready](http://php7ready.timesplinter.ch/wyrihaximus/php-string-get-in/badge.svg)](https://travis-ci.org/wyrihaximus/php-string-get-in)
+[![PHP 7 ready](http://php7ready.timesplinter.ch/wyrihaximus/php-string-get-in/badge.svg)](https://travis-ci.com/WyriHaximus/php-string-get-in)
 
 # Install
 

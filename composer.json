@@ -10,7 +10,7 @@
   ],
   "require": {
     "php": "^7.2",
-    "igorw/get-in": "^1.0"
+    "igorw/get-in": "^1.0.3"
   },
   "require-dev": {
     "api-clients/test-utilities": "^5.1"

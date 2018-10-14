@@ -47,7 +47,7 @@ install:
 ## Run the actual test
 script:
   - if [ "$coverage" = "false" ]; then make ci; fi;
-  - if [ "$coverage" = "true" ]; then make ci-with-coverage; fi;
+  - if [ "$coverage" = "true" ]; then make ci-coverage; fi;
 
 ## Gather coverage and set it to coverage servers
 after_script: make ci-coverage

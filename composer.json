@@ -13,7 +13,7 @@
     "igorw/get-in": "^1.0.3"
   },
   "require-dev": {
-    "api-clients/test-utilities": "^5.1"
+    "api-clients/test-utilities": "^5.4"
   },
   "autoload": {
     "files": [

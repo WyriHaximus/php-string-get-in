@@ -1,17 +1,24 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace WyriHaximus\Tests;
 
-use ApiClients\Tools\TestUtilities\TestCase;
+use WyriHaximus\TestUtilities\TestCase;
+
 use function WyriHaximus\getIn;
 
 final class FunctionalTest extends TestCase
 {
-    public function provideGetIn()
+    /**
+     * @return iterable<mixed>
+     */
+    public function provideGetIn(): iterable
     {
         $single = ['key' => 'value'];
         $nested = ['foo' => ['bar' => ['baz' => 'value']]];
         $list   = [['name' => 'foo']];
+
         return [
             ['value', $single, 'key', 'default'],
             [['bar' => ['baz' => 'value']], $nested, 'foo', 'default'],
@@ -29,9 +36,17 @@ final class FunctionalTest extends TestCase
         ];
     }
 
-    /** @dataProvider provideGetIn */
-    public function testGetIn($expected, $array, $keys, $default = null)
+    /**
+     * @param mixed        $expected
+     * @param array<mixed> $array
+     * @param mixed|null   $default
+     *
+     * @dataProvider provideGetIn
+     *
+     * @test
+     */
+    public function getIn($expected, array $array, string $keys, $default = null): void
     {
-        $this->assertSame($expected, getIn($array, $keys, $default));
+        self::assertSame($expected, getIn($array, $keys, $default));
     }
 }

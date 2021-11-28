@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-    "php": "^8 || ^7.4",
+    "php": "^8",
     "igorw/get-in": "^1.0.3"
   },
   "require-dev": {
@@ -17,7 +17,7 @@
   },
   "config": {
     "platform": {
-      "php": "7.4.7"
+      "php": "8.0.0"
     },
     "sort-packages": true
   },

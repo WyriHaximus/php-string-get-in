@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-    "php": "^7.4",
+    "php": "^8 || ^7.4",
     "igorw/get-in": "^1.0.3"
   },
   "require-dev": {

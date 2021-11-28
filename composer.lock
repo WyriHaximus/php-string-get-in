@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4eb2fb926dcda31d7fe00d8864672dbb",
+    "content-hash": "2be5434544b0060dfb9d3b1376a9b564",
     "packages": [
         {
             "name": "igorw/get-in",
@@ -8417,7 +8417,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4"
+        "php": "^8 || ^7.4"
     },
     "platform-dev": [],
     "platform-overrides": {

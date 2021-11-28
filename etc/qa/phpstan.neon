@@ -1,0 +1,6 @@
+parameters:
+	ignoreErrors:
+		- '#Function WyriHaximus\\getIn\(\) has parameter \$default with null as default value.#'
+		- '#Method WyriHaximus\\Tests\\FunctionalTest::getIn\(\) has parameter \$default with null as default value.#'
+includes:
+	- ../../vendor/wyrihaximus/test-utilities/rules.neon
